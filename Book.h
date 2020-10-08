@@ -21,7 +21,7 @@ private:
 
 public:
     Book();
-    Book(const std::string& title1, const std::string& publisher1, const int& pages1, const double& price1);
+    Book(const std::string& title1, const std::string& publisher1, const int& pages1, const double& price1, std::unique_ptr<Author> author);
     Book(const Book& t);
     ~Book();
 
@@ -42,8 +42,8 @@ public:
     const void print() const;
     const std::string to_string();
 
-    void add_author(Author* author);
-    const std::string get_author_names() const;
+    const void add_author(std::unique_ptr<Author> author);
+    const void get_author_names() const;
 
     static Book create_demo_book();
 };
