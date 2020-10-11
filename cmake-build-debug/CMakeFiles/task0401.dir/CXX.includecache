@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/CLionProjects/PRO2/task0401/Author.h
-iostream
--
-
-/home/alex/CLionProjects/PRO2/task0401/Book.cpp
-Book.h
-/home/alex/CLionProjects/PRO2/task0401/Book.h
-sstream
--
-random
--
-
-/home/alex/CLionProjects/PRO2/task0401/Book.h
+/home/alex/CLionProjects/PRO2/task0401/Author.cpp
 Author.h
 /home/alex/CLionProjects/PRO2/task0401/Author.h
+sstream
+-
+utility
+-
+
+/home/alex/CLionProjects/PRO2/task0401/Author.h
 iostream
--
-vector
--
-memory
 -
 

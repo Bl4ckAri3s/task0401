@@ -49,7 +49,8 @@ const char Author::get_gender() const {
 const std::string Author::to_string() const {
     std::stringstream ss;
 
-    ss << "Name: " << name;
+    ss << "=== Author info ===";
+    ss << "\nName: " << name;
     ss << "\nEmail: " << email;
     ss << "\nGender: " << gender;
 

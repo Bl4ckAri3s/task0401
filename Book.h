@@ -21,7 +21,7 @@ private:
 
 public:
     Book();
-    Book(const std::string& title1, const std::string& publisher1, const int& pages1, const double& price1, std::unique_ptr<Author> author);
+    Book(std::unique_ptr<Author> author, const std::string& title1, const std::string& publisher1, const int& pages1, const double& price1);
     Book(const Book& t);
     ~Book();
 
